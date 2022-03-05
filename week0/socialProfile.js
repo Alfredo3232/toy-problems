@@ -1,7 +1,7 @@
-/* create a social media profile, it should have the propreties name, friends, and messages create functions
-post message, that adds a message in the messages array
+/* create a socialMediaProfile object, it should have the following propreties name, friends, and messages array. 
+Create a function post message, that adds a message in the messages array
 delete message, that deletes a message in messages array
-add and remove friends that add and subtracts the amount of friends you have
+create two function named addFriends and removeFriends that adds or removes from the friends proprety
  */
 
 var socialMediaProfile ={
