@@ -1,4 +1,5 @@
-// write a logic that loop over a nested array and prints 2 values of each array and prints them
+// write logic that loops over a nested array and prints the 2 values of each object element
+
 var cookies = [
     { type: "Raisin", cost: 1.80 },
     { type: "Chocolate", cost: 3 },
