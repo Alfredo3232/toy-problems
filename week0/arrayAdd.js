@@ -1,4 +1,5 @@
-// create an array and add 3 more elements to the array
+// create an array with strings of food names and add 3 more elements to the array
+// console log the array at the end of your code
 
 var ramen = ["shrimp", "seafood", "beef", "tonkotsu", "chicken"];
 
