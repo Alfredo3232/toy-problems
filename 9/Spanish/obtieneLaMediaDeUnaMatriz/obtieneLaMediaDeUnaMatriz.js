@@ -7,6 +7,6 @@ La matriz nunca estará vacía.
 */
 
 
-function obtieneElPromedio(grados){
+function obtieneElPromedio(grados) {
 
 }
