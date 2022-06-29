@@ -3,17 +3,17 @@
   - should return an empty object if the string is empty
 */
 function counting(str) {
-    if(str === ""){
+    if (str === "") {
         return {}
     }
     let obj = {};
     let split = str.split(" ");
-    let appearance = 0; 
+    let appearance = 0;
     console.log(appearance)
-    for(var i = 0; i < split.length; i++){
-        if(obj[split[i]] === undefined){
+    for (var i = 0; i < split.length; i++) {
+        if (obj[split[i]] === undefined) {
             obj[split[i]] = 1;
-        }else{
+        } else {
             obj[split[i]] += 1;
         }
     }

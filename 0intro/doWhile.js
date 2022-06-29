@@ -1,7 +1,7 @@
 // create a do while loop  that counts from 0 to 20
 let i = 0;
 
-do{
-console.log(i);
+do {
+  console.log(i);
   i++;
-} while ( i <= 20)
+} while (i <= 20)

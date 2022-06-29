@@ -4,9 +4,9 @@ Notas:
 La edad para beber en Mexico es 18.
 */
 function edadParaBeber(edad) {
-    if( edad >= 18){
+    if (edad >= 18) {
         return "Si puede beber"
-    }else{
+    } else {
         return "No puede beber"
     }
 }
