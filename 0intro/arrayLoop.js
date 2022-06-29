@@ -6,6 +6,6 @@ var cookies = [
     { type: "Plain", cost: 1.20 },
     { type: "M&M", cost: 3 }
 ];
-cookies.forEach(function(cookie){
-       console.log(cookie.type+ " " + cookie.cost);
+cookies.forEach(function (cookie) {
+    console.log(cookie.type + " " + cookie.cost);
 })
