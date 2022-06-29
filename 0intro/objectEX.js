@@ -2,6 +2,6 @@
 var person = {
   name: "John Doe",
   age: 28,
-  hobbies:  [ "exercise", "Reading", "Sports"]
+  hobbies: ["exercise", "Reading", "Sports"]
 }
 console.log(person)

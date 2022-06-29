@@ -4,20 +4,20 @@ delete message, that deletes a message in messages array
 create two function named addFriends and removeFriends that adds or removes from the friends proprety
  */
 
-var socialMediaProfile ={
+var socialMediaProfile = {
     name: "Alfredo",
     friends: 20,
     messages: ["Hello World!", "I am in Mexico", "Tacos"],
-    postMessage: function(message){
+    postMessage: function (message) {
         socialMediaProfile.messages.push(message);
     },
-    deleteMessage: function(index){
-        socialMediaProfile.messages.splice(index,1);
+    deleteMessage: function (index) {
+        socialMediaProfile.messages.splice(index, 1);
     },
-    addFriend: function(){
+    addFriend: function () {
         socialMediaProfile.friends += 1;
     },
-    removeFriend: function(){
+    removeFriend: function () {
         socialMediaProfile.friends -= 1;
     }
 };

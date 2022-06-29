@@ -4,6 +4,6 @@
  3. your function must print "are the same" if the two given values are the same
 */
 function same(c, d) {
-  return (c !== d) ?  c + " and " + d + " are not the same" 
+  return (c !== d) ? c + " and " + d + " are not the same"
     : (c === d) ? c + " and " + d + " are the same"
 }

@@ -11,14 +11,14 @@ var weather = true;
 var busy = false;
 var familyBusy = true;
 
-if ( weather === true){
-   if ( busy === false && familyBusy === false ){
-   console.log( "You are going to the park" );
-   } else if ( busy === true){
-     console.log( "You are busy");
-   } else if ( familyBusy === true){
-     console.log( "Your family is busy");
-   }
-} else{
-  console.log( "The weather is bad" );
+if (weather === true) {
+  if (busy === false && familyBusy === false) {
+    console.log("You are going to the park");
+  } else if (busy === true) {
+    console.log("You are busy");
+  } else if (familyBusy === true) {
+    console.log("Your family is busy");
+  }
+} else {
+  console.log("The weather is bad");
 }

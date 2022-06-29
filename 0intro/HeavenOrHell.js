@@ -4,11 +4,11 @@ if that name doesnt start with a vowel print "Welcome to Heaven, Name"
 -make sure it does this for every string in the array
 */
 
-var heavenOrHell = function(arr){
-    for(let i = 0; i < arr.length; i++){
-        if(/[aeiou]/.test(arr[i][0].toLowerCase())){
+var heavenOrHell = function (arr) {
+    for (let i = 0; i < arr.length; i++) {
+        if (/[aeiou]/.test(arr[i][0].toLowerCase())) {
             console.log("Welcome to Hell, " + arr[i])
-        }else{
+        } else {
             console.log("Welcome to Heaven, " + arr[i])
         }
     }
