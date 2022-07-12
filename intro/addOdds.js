@@ -1,5 +1,5 @@
 /*
-make a function that takes in an array of values, only add up the odd numbers and filter out the non numbersin the given input array=
+make a function that takes in an array of values, only add up the odd numbers and filter out the non numbers in the given input array=
 addOdds(["hello", true, 1, 5, false, 20, 21];);
 */
 function addOdds(numArray) {
