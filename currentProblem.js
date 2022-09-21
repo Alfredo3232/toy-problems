@@ -35,23 +35,19 @@ function removeDuplicates(head) {
                 if (second === 'data') {
                     var next = secHead[second];
 
-                    console.log("next ->", next);
-                    console.log("last ->", last);
-
                     //if last and next are the same                                   
                     if (next === last) {
-                        console.log("DETECTED A SIMILAR VALUES");
+                        console.log("DETECTED A SIMILAR VALUES 1");
                         console.log("The Same ->", next, last);
 
                         //then delete the key-value data of next
-                        delete secHead[second]
+                        delete secHead[second];
                     }
 
                 }
 
                 //is there another next value?
                 if (secHead.next) {
-                    console.log('next value', secHead.next);
 
                     //make refrence to the next obj
                     let thirdHead = secHead.next;
@@ -59,7 +55,27 @@ function removeDuplicates(head) {
                     //do another for in
                     for (let third in thirdHead) {
                         //check values
+                        if (third === 'data') {
+                            var next2 = thirdHead[third];
+
+                            if (next2 == next) {
+                                console.log("DETECTED A SIMILAR VALUES 2");
+                                console.log("The Same ->", next2, next);
+
+                                console.log("delete because of next");
+                                delete thirdHead[third];
+                            }
+
+                            if (next2 == last) {
+                                console.log("DETECTED A SIMILAR VALUES 3");
+                                console.log("The Same ->", next2, last);
+
+                                console.log("delete because of last")
+                                delete thirdHead[third];
+                            }
+                        }
                     }
+                    return dupHead
 
                 }
 
