@@ -1,7 +1,7 @@
 // write a function when given a interger it returns that number of "yes"
-var result = "";
+let result = "";
 function agree(num) {
-  for (var i = 0; i < num; i++) {
+  for (let i = 0; i < num; i++) {
     result = result + "yes";
   }
   return result;

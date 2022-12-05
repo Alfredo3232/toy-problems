@@ -5,7 +5,7 @@
  * - Your code should not be empty
  */
 
-var num = 24;
+let num = 24;
 while (num >= 0) {
     if (num === 8) {
         console.log("Wake Up");

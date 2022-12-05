@@ -8,9 +8,7 @@ function counting(str) {
     }
     let obj = {};
     let split = str.split(" ");
-    let appearance = 0;
-    console.log(appearance)
-    for (var i = 0; i < split.length; i++) {
+    for (let i = 0; i < split.length; i++) {
         if (obj[split[i]] === undefined) {
             obj[split[i]] = 1;
         } else {
@@ -19,5 +17,5 @@ function counting(str) {
     }
     return obj
 }
-var output = counting('an eye for an eye');
-console.log(output); 
+
+let output = counting('an eye for an eye');

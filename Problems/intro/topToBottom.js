@@ -10,11 +10,12 @@ l r
 l l  
 o d
 */
+
 function topToBot(array) {
     let first = array[0];
     let second = array[1];
     let result = "";
-    for (var i = 0; i < first.length; i++) {
+    for (let i = 0; i < first.length; i++) {
         result += first[i] + second[i] + "\n"
     }
     return result

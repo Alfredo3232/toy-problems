@@ -7,5 +7,5 @@ function biggerThan11(num) {
   }
 }
 
-var output = biggerThan11(11);
+let output = biggerThan11(11);
 console.log(output); 

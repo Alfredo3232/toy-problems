@@ -7,5 +7,5 @@ function isItOdd(str) {
   }
 }
 
-var output = isItOdd('special');
+let output = isItOdd('special');
 console.log(output);

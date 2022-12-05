@@ -2,11 +2,11 @@
 if false
 */
 function valid(username, password) {
-  if (name.length > 4 && password.length >= 8) {
+  if (username.length > 4 && password.length >= 8) {
     return true;
   } else {
     return false;
   }
 }
-var output = valid('ExampleUsername', 'ExamplePassword')
+let output = valid('ExampleUsername', 'ExamplePassword')
 console.log(output);

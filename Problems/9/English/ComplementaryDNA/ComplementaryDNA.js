@@ -1,6 +1,6 @@
 function DNAStrand(dna) {
     let empty = '';
-    for (var i = 0; i < dna.length; i++) {
+    for (let i = 0; i < dna.length; i++) {
         if (dna[i] === 'A') {
             empty += 'T'
         }

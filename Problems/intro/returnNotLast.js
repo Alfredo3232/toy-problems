@@ -5,11 +5,11 @@
 */
 function NotLast(array) {
   let empty = [];
-  for (var i = 0; i < array.length - 1; i++) {
+  for (let i = 0; i < array.length - 1; i++) {
     empty.push(array[i]);
   }
   return empty
 }
-var input = [1, 2, 3, 4, 5, 6, 7];
-var output = NotLast(input);
+let input = [1, 2, 3, 4, 5, 6, 7];
+let output = NotLast(input);
 console.log(output); 

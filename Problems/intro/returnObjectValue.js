@@ -3,8 +3,8 @@
 function example(obj, key) {
   return obj[key];
 }
-var obj = {
+let obj = {
   key: 'value'
 };
-var last = example(obj, 'key');
+let last = example(obj, 'key');
 console.log(last); 

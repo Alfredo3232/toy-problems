@@ -3,8 +3,8 @@ make a function that takes in an array of values, only add up the odd numbers an
 addOdds(["hello", true, 1, 5, false, 20, 21];);
 */
 function addOdds(numArray) {
-  var result = 0;
-  for (var i = 0; i < numArray.length; i++) {
+  let result = 0;
+  for (let i = 0; i < numArray.length; i++) {
     if (typeof numArray[i] === "number") {
       if (numArray[i] % 2 !== 0) {
         result += numArray[i]

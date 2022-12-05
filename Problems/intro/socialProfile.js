@@ -4,7 +4,7 @@ delete message, that deletes a message in messages array
 create two function named addFriends and removeFriends that adds or removes from the friends proprety
  */
 
-var socialMediaProfile = {
+let socialMediaProfile = {
     name: "Alfredo",
     friends: 20,
     messages: ["Hello World!", "I am in Mexico", "Tacos"],

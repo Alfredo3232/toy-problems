@@ -1,5 +1,5 @@
 //create logic when given a interger in peopleNumber, 0 or lower should print "No People", 1 "a solo", 2 "a duo, 3 "a trio", 4 "a squad"
-var peopleNumber = 4;
+let peopleNumber = 4;
 
 if (peopleNumber <= 0) {
   console.log("No People");

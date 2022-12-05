@@ -10,5 +10,5 @@ function edadParaBeber(edad) {
         return "No puede beber"
     }
 }
-var final = edadParaBeber(16);
+let final = edadParaBeber(16);
 console.log(final);

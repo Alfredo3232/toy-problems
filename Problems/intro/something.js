@@ -7,9 +7,9 @@
     weather has to be true to check if both busy and familyBusy have to be false to go to the park. Print "The weather is bad" if weather = false, 
     print "You are going to the park" if weather = true, busy and family = false etc...
 */
-var weather = true;
-var busy = false;
-var familyBusy = true;
+let weather = true;
+let busy = false;
+let familyBusy = true;
 
 if (weather === true) {
   if (busy === false && familyBusy === false) {
