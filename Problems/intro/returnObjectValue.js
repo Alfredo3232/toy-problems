@@ -4,7 +4,7 @@ function example(obj, key) {
   return obj[key];
 }
 let obj = {
-  key: 'value'
+  key: "value"
 };
-let last = example(obj, 'key');
+let last = example(obj, "key");
 console.log(last); 

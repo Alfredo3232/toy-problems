@@ -8,5 +8,5 @@ function valid(username, password) {
     return false;
   }
 }
-let output = valid('ExampleUsername', 'ExamplePassword')
+let output = valid("ExampleUsername", "ExamplePassword");
 console.log(output);

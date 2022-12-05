@@ -12,5 +12,5 @@ if (peopleNumber <= 0) {
 } else if (peopleNumber === 4) {
   console.log("A Squad");
 } else {
-  console.log("This is a lot of people")
+  console.log("This is a lot of people");
 }

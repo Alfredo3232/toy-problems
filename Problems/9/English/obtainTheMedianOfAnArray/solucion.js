@@ -6,8 +6,8 @@ function obtieneElPromedio(grados) {
   let num = 0;
   let total;
   for (let i = 0; i < grados.length; i++) {
-    num += grados[i]
+    num += grados[i];
   }
-  total = num / len
-  return Math.floor(total)
+  total = num / len;
+  return Math.floor(total);
 }

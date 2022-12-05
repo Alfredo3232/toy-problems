@@ -4,7 +4,7 @@
 */
 function counting(str) {
     if (str === "") {
-        return {}
+        return {};
     }
     let obj = {};
     let split = str.split(" ");
@@ -15,7 +15,7 @@ function counting(str) {
             obj[split[i]] += 1;
         }
     }
-    return obj
+    return obj;
 }
 
-let output = counting('an eye for an eye');
+let output = counting("an eye for an eye");

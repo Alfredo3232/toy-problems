@@ -16,8 +16,8 @@ function topToBot(array) {
     let second = array[1];
     let result = "";
     for (let i = 0; i < first.length; i++) {
-        result += first[i] + second[i] + "\n"
+        result += first[i] + second[i] + "\n";
     }
-    return result
+    return result;
 }
-console.log(topToBot(['Hello', 'World']))
+console.log(topToBot(["Hello", "World"]));

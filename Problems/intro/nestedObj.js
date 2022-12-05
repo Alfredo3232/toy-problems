@@ -4,5 +4,5 @@ let object1 = {
   object2: {
     num: 3
   }
-}
-object1.object2
+};
+object1.object2;

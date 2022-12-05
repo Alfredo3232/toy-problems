@@ -7,10 +7,10 @@ function addOdds(numArray) {
   for (let i = 0; i < numArray.length; i++) {
     if (typeof numArray[i] === "number") {
       if (numArray[i] % 2 !== 0) {
-        result += numArray[i]
+        result += numArray[i];
       }
     }
   }
-  return result
+  return result;
 }
 addOdds(["hello", true, 1, 5, false, 20, 21]);

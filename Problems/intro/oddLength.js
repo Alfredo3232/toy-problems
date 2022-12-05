@@ -1,11 +1,11 @@
 //write a function when given a string in the parameter, return even or odd based on the string's length
 function isItOdd(str) {
   if (str.length % 2 === 0) {
-    return "even"
+    return "even";
   } else {
-    return "odd"
+    return "odd";
   }
 }
 
-let output = isItOdd('special');
+let output = isItOdd("special");
 console.log(output);

@@ -8,8 +8,8 @@
 let pencil = {
   "color": "Yellow",
   "num": 1
-}
+};
 pencil.color = "black";
 delete pencil.num;
-pencil.eraser = "white"
-console.log(pencil)
+pencil.eraser = "white";
+console.log(pencil);

@@ -9,4 +9,4 @@ let cookies = [
 
 cookies.forEach(function (cookie) {
     console.log(cookie.type + " " + cookie.cost);
-})
+});
