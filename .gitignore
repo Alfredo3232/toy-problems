@@ -1,2 +1,5 @@
+# npm libraries
 node_modules/
-.eslintrc.js
+
+# eslint settings
+.eslintrc.json
