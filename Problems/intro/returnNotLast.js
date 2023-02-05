@@ -12,4 +12,4 @@ function NotLast(array) {
 }
 let input = [1, 2, 3, 4, 5, 6, 7];
 let output = NotLast(input);
-console.log(output); 
+console.log(output);

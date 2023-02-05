@@ -1,7 +1,7 @@
 /*
  * - Use a `while` loop
- * - The while loop must stop 
- * - The output of the while loop should be your daily schedule using console logs in a 24 hour time clock 
+ * - The while loop must stop
+ * - The output of the while loop should be your daily schedule using console logs in a 24 hour time clock
  * - Your code should not be empty
  */
 

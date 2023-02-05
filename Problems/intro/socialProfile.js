@@ -1,4 +1,4 @@
-/* create a socialMediaProfile object, it should have the following propreties name, friends, and messages array. 
+/* create a socialMediaProfile object, it should have the following propreties name, friends, and messages array.
 Create a function post message, that adds a message in the messages array
 delete message, that deletes a message in messages array
 create two function named addFriends and removeFriends that adds or removes from the friends proprety

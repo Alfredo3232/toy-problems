@@ -1,5 +1,5 @@
 /*
-create a function when given an array of strings of names, if that name starts with a vowel print "Welcome to Hell, Name"  
+create a function when given an array of strings of names, if that name starts with a vowel print "Welcome to Hell, Name"
 if that name doesnt start with a vowel print "Welcome to Heaven, Name"
 -make sure it does this for every string in the array
 */

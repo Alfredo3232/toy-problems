@@ -4,10 +4,10 @@ example of invoking the function:
    topToBot(['Hello','World']);
 
 should return:
-H W  
-e o  
-l r  
-l l  
+H W
+e o
+l r
+l l
 o d
 */
 

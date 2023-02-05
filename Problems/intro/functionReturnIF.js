@@ -8,4 +8,4 @@ function biggerThan11(num) {
 }
 
 let output = biggerThan11(11);
-console.log(output); 
+console.log(output);
