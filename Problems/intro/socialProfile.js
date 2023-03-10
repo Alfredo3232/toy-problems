@@ -5,10 +5,10 @@ create two function named addFriends and removeFriends that adds or removes from
  */
 
 let socialMediaProfile = {
-    name: "Alfredo",
-    friends: 20,
-    messages: ["Hello World!", "I am in Mexico", "Tacos"],
-    postMessage: function (message) {
+    name        : "Alfredo",
+    friends     : 20,
+    messages    : ["Hello World!", "I am in Mexico", "Tacos"],
+    postMessage : function (message) {
         socialMediaProfile.messages.push(message);
     },
     deleteMessage: function (index) {

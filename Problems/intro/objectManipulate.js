@@ -6,8 +6,8 @@
   4. console.log the object to test
  */
 let pencil = {
-  "color": "Yellow",
-  "num": 1
+  "color" : "Yellow",
+  "num"   : 1
 };
 pencil.color = "black";
 delete pencil.num;
