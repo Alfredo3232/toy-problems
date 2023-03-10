@@ -1,9 +1,10 @@
-function reverseWords(str) {
-    let arr = str.split(" ");
-
-    for (let i = 0; i < arr.length; i++) {
-        arr[i] = arr[i].split("").reverse().join("");
+function humanReadable(seconds) {
+    if (seconds < 60) {
+        if (seconds < 10) {
+            return `00:00:0${seconds}`;
+        }
+        return `00:00:${seconds}`;
     }
 
-    return arr.join(" ");
+    console.log(seconds);
 }
