@@ -1,26 +1,24 @@
-function permutations(string) {
-    let arr = string.split("");
-    let results = [];
-
-    function swap(arr, i, j) {
-        const temp = arr[i];
-
-        arr[i] = arr[j];
-        arr[j] = temp;
+function generateHashtag(str) {
+    if (str.length > 140) {
+        return false;
+    }
+    if (str.trim() === "") {
+        return false;
     }
 
-    function permuteHelper(arr, startIndex) {
-        if (startIndex === arr.length - 1) {
-            results.push(arr.join(""));
-        } else {
-            for (let i = startIndex; i < arr.length; i++) {
-                swap(arr, startIndex, i);
-                permuteHelper(arr, startIndex + 1);
-                swap(arr, startIndex, i);
-            }
-        }
+    let arr = str.split(" ");
+
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].split("");
     }
 
-    permuteHelper(arr, 0);
-    return [...new Set(results)];
+    for (let i = 0; i < arr.length; i++) {
+        arr[i][0] = arr[i][0].toUpperCase();
+
+        arr[i] = arr[i].join("");
+    }
+
+    arr.unshift("#");
+
+    return arr.join("");
 }
