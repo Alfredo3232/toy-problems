@@ -4,9 +4,9 @@ if false
 function valid(username, password) {
   if (username.length > 4 && password.length >= 8) {
     return true;
-  } else {
-    return false;
   }
+    return false;
+
 }
 let output = valid("ExampleUsername", "ExamplePassword");
 console.log(output);

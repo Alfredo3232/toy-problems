@@ -76,15 +76,10 @@
             "error",
             "always"
         ],
-        "comma-dangle": [
+        "eqeqeq": [
             "error",
-            {
-                "arrays": "never",
-                "objects": "never",
-                "imports": "never",
-                "exports": "never",
-                "functions": "never"
-            }
-        ]
+            "smart"
+        ],
+        "no-else-return": "error"
     }
 }

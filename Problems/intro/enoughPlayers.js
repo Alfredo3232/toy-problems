@@ -5,8 +5,8 @@ let team = ["Me", "Friend 1", "Friend 2", "Friend 3", "Friend 4"];
 function hasEnoughPlayers(team) {
   if (team.length >= 5) {
     return true;
-  } else {
-    return false;
   }
+    return false;
+
 }
 console.log(hasEnoughPlayers(team));

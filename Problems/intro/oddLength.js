@@ -2,9 +2,9 @@
 function isItOdd(str) {
   if (str.length % 2 === 0) {
     return "even";
-  } else {
-    return "odd";
   }
+    return "odd";
+
 }
 
 let output = isItOdd("special");

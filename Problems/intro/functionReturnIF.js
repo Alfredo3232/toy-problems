@@ -2,9 +2,9 @@
 function biggerThan11(num) {
   if (num > 11) {
     return true;
-  } else {
-    return "not greater than eleven :(";
   }
+    return "not greater than eleven :(";
+
 }
 
 let output = biggerThan11(11);
