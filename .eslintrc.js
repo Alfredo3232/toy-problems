@@ -64,6 +64,7 @@ module.exports = {
         }],
         "semi"           : ["error", "always"],
         "eqeqeq"         : ["error", "smart"],
-        "no-else-return" : "error"
+        "no-else-return" : "error",
+        "no-unreachable" : "error"
     }
 };
