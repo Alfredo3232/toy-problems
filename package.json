@@ -1,14 +1,15 @@
 {
   "name": "codingexamples",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "type": "module",
+  "description": "Building up my skills with continuous practice",
   "main": "index.js",
+  "author": "Alfredo3232",
+  "homepage": "https://github.com/Alfredo3232/toy-problems",  
   "scripts": {
     "lint": "eslint . --fix"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.15.0",
     "eslint": "^9.15.0",
