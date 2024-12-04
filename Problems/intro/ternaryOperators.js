@@ -5,5 +5,7 @@
 */
 
 function same(c, d) {
-  return (c !== d) ? c + " and " + d + " are not the same" : c + " and " + d + " are the same";
+    return c !== d
+        ? c + " and " + d + " are not the same"
+        : c + " and " + d + " are the same";
 }

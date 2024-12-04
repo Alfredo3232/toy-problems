@@ -14,3 +14,18 @@ if (peopleNumber <= 0) {
 } else {
   console.log("This is a lot of people");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
